@@ -18,7 +18,7 @@ const logout = () => {
 };
 
   return (
-    <nav className="relative z-50 flex justify-between items-center mb-5 px-4 sm:px-6 md:px-10 lg:px-16 xl:px-24 py-4 border-b border-gray-500 text-sm">
+   <nav className="relative z-50 flex justify-between items-center mb-5 px-4 sm:px-6 md:px-10 lg:px-16 xl:px-24 py-4 border-b border-gray-200 bg-white text-gray-900 text-sm">
       {/* ================= LOGO ================= */}
       <NavLink to="/" onClick={() => setOpen(false)}>
         <img className="w-44 cursor-pointer" src={assets.logo} alt="Logo" />
