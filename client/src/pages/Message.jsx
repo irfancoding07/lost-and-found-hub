@@ -365,9 +365,7 @@ const Message = () => {
     );
   }
 
-  // =====================================================
-  // UI
-  // =====================================================
+ 
 
   return (
     <div className="mx-4 sm:mx-6 md:mx-10 lg:mx-16 xl:mx-24 mt-10 mb-10">
@@ -377,7 +375,7 @@ const Message = () => {
         Messages
       </h1>
 
-      {/* MAIN CHAT BOX */}
+   
       <div className="grid md:grid-cols-3 border border-gray-200 rounded-xl overflow-hidden min-h-[600px] shadow-sm bg-white">
 
         {/* =================================================

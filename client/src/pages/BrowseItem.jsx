@@ -1,6 +1,3 @@
- 
-
-
 
 import { Bookmark, MapPin } from "lucide-react";
 
@@ -75,6 +72,14 @@ const BrowseItem = () => {
           </button>
 
         </div>
+  
+        { filterItem .length === 0 && (
+          <div className="text-center py-20 text-gray-500 font-bold text-3xl">
+            No reports found.
+          </div>
+        )}  
+ 
+
 
         <div className="mt-10">
 
